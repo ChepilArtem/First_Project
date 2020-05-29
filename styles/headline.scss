@@ -1,0 +1,116 @@
+.headline {
+    background-color: #F3C6BD;
+
+    @include for-large-up {
+        max-height: 500px;
+    }
+
+    &__content {
+        width: 290px;
+        margin: 0 auto;
+
+        @include for-large-up {
+            width: 754px;
+            height: 165px;
+            margin-left: 130px;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.3125px;
+        margin: 0;
+        padding-top: 35px;
+
+        @include for-large-up {
+            width: 754px;
+            height: 165px;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 78px;
+            letter-spacing: -0.5px;
+            z-index: 3;
+            position: relative;
+            padding-top: 0px;
+        }
+    }
+
+    &__description {
+        margin-top: 24px;
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 34px;
+
+        @include for-large-up {
+            width: 455px;
+            height: 100px;
+            font-size: 24px;
+            line-height: 34px;
+            color: #2B292D;
+        }
+    }
+
+    &__actions {
+        margin-top: 30px;
+
+        @include for-large-up {
+            display: flex;
+            margin-top: 0px;
+        }
+    }
+
+    &__action-btn {
+        background-color: #3040C4;
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        width: 100%;
+        height: 48px;
+        font-size: 18px;
+        font-weight: 700;
+
+        @include for-large-up {
+            width: 160px;
+            height: 48px;
+            margin-top: 58px;
+            margin-right: 10px;
+            
+        }
+    }
+
+    &__learn-more-btn {
+        background-color: #fff;
+        color: #3040C4;
+        border: none;
+        border-radius: 2px;
+        width: 100%;
+        height: 48px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 15px;
+
+        @include for-large-up {
+            width: 160px;
+            height: 48px;
+            margin-top: 58px;
+        }
+    }
+
+    &__bunner {
+        width: 100%;
+        margin-top: 33px;
+        margin-bottom: 36px;
+
+        @include for-large-up {
+            width: 796px;
+            height: 448px;
+            position: relative;
+            margin-top: 0px;
+            left: 582px;
+            top: -160px;
+            z-index: 2;
+        }
+    }
+}

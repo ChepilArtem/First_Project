@@ -1,0 +1,134 @@
+.footer-head {
+    width: 320px;
+    margin: 0 auto;
+
+    @include for-large-up {
+        display: none;
+    }
+
+    &__image {
+        margin: 40px 130px 20px;
+        width: 60px;
+        height: 60px;
+    }
+
+    &__name {   
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__description {
+        font-size: 20px;
+        line-height: 25px;
+        color: #2B292D;
+        opacity: 0.6;
+        text-align: center;
+    }
+
+    &__download {
+        width: 290px;
+        margin:30px 0px 40px 30px;
+    }
+}
+
+.mobile-line {
+    border: none;
+    height: 1px;
+    background-color: #2B292D;
+    opacity: 0.1;
+
+    @include for-large-up {
+        display: none;
+    }
+}
+
+.product-AND-company { 
+    width: 320px;
+    margin: 0 auto;
+    padding: 30px 15px; 
+
+    @include for-large-up {
+        display: none;
+    }
+}
+
+.footer-product {
+
+    &__name {
+        margin-bottom: 18px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: #2B292D;
+    }
+
+    &__items {
+        list-style: none;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(43, 41, 45, 0.6);
+    }
+}
+
+.footer-company {
+    margin-top: 30px;
+}
+
+.footer-links {
+    width: 320px;
+    margin: 0 auto;
+    padding: 0px 15px;
+
+    @include for-large-up {
+        display: flex;
+        justify-content: space-between;
+        line-height: 50px;
+        width: 1140px;
+        padding: 0;
+        line-height: 50px;
+    }
+}
+
+.footer-navigation {
+    margin-bottom: 30px;
+
+    @include for-large-up {
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    &__items {
+        margin-right: 15px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(43, 41, 45, 0.6);
+    }
+}
+
+.footer-icons {
+    margin-bottom: 20px;
+
+    @include for-large-up {
+        margin-bottom: 0;
+    }
+
+    &__links {
+        width: 16px;
+        height: 15px;
+        margin-right: 20px;
+    }
+}
+
+.desktop-line {
+    border: none;
+    height: 1px;
+    background-color: #2B292D;
+    opacity: 0.2;
+
+    @include for-large-down {
+        display: none;
+    }
+}
