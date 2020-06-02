@@ -11,7 +11,7 @@
 
 .header {
     display: flex;
-    height: 70px;  //none
+    height: 75px;  //70
 
     @include for-large-up {
         width: 1140px;
@@ -86,10 +86,10 @@
 }
 .nav-list__item_selected {
     font-weight: 700;
-    margin-right: 40px;
+    margin-right: 35px;
 }
 .nav-list__item:nth-child(even) {
-    margin-right: 40px; 
+    margin-right: 35px; 
 }
 
 
@@ -106,7 +106,7 @@
         font-size: 18px;
         font-weight: 700;
         margin-top: 15px; //40px
-        // margin-right: 130px;
+        margin-right: 5px;
     }
 }
 
