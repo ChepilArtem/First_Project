@@ -44,6 +44,7 @@
         height: 50px;
         width: 200px; //none
         margin-top: 20px; // none
+        font-size: 18px;
     }
 }
 
@@ -72,8 +73,8 @@
     display: none;
     @include for-large-up {
         display: block;
-        margin-left: 335px; //auto
-        // margin-top: 46px;
+        font-size: 18px;
+        margin-left: 335px;
         margin-right: 75px;
         width: 273px;  //273px
         line-height: 70px; //none
@@ -109,7 +110,7 @@
         font-size: 18px;
         font-weight: 700;
         margin-top: 10px; //40px
-        margin-right: 5px;
+        // margin-right: 5px;
     }
 }
 
