@@ -33,7 +33,7 @@
     @include for-large-up {
         width: 60px;
         height: 60px;
-        margin-right: 12px;
+        margin-right: 10px;
         margin-left: 15px; //none
         // margin-left: 130px;
         margin-top: 0px;
@@ -55,7 +55,7 @@
     color: #2B292D;
 
     @include for-large-up {
-        line-height: 0px; //40px
+        line-height: 3px; //40px
     }
 }
 
@@ -76,7 +76,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 18px;
-        margin-left: 275px;
+        margin-left: 260px;
         width: 305px;
         line-height: 70px;
 
