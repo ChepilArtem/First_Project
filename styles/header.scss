@@ -12,8 +12,11 @@
 .header {
     display: flex;
     height: 70px;  //none
-    width: 1140px;
-    margin-left: 130px;
+
+    @include for-large-up {
+        width: 1140px;
+        margin-left: 130px;
+    }
 }
 
 .logo__image {
@@ -36,7 +39,7 @@
 .logo__text {
     @include for-large-up {
         height: 50px;
-        width: 270px; //none
+        width: 200px; //none
         margin-top: 30px; // none
     }
 }
@@ -55,7 +58,7 @@
 .logo__description {
     display: none;
     @include for-large-up {
-        display: inline-block;
+        display: block;
         color: #2B292D;
         opacity: 0.6;
         margin-top: 15px; //none
@@ -69,7 +72,7 @@
         margin-left: 335px; //auto
         // margin-top: 46px;
         margin-right: 75px;
-        width: 305px;  //273px
+        width: 273px;  //273px
         line-height: 80px; //none
 
         &__arrow {

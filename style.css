@@ -12,8 +12,12 @@
 .header {
   display: flex;
   height: 70px;
-  width: 1140px;
-  margin-left: 130px;
+}
+@media screen and (min-width: 1400px) {
+  .header {
+    width: 1140px;
+    margin-left: 130px;
+  }
 }
 
 .logo__image {
@@ -35,7 +39,7 @@
 @media screen and (min-width: 1400px) {
   .logo__text {
     height: 50px;
-    width: 270px;
+    width: 200px;
     margin-top: 30px;
   }
 }
@@ -57,7 +61,7 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__description {
-    display: inline-block;
+    display: block;
     color: #2B292D;
     opacity: 0.6;
     margin-top: 15px;
@@ -72,7 +76,7 @@
     display: block;
     margin-left: 335px;
     margin-right: 75px;
-    width: 305px;
+    width: 273px;
     line-height: 80px;
   }
   .navigation__arrow {
