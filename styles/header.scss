@@ -12,6 +12,8 @@
 .header {
     display: flex;
     height: 70px;  //none
+    width: 1140px;
+    margin-left: 130px;
 }
 
 .logo__image {
@@ -25,7 +27,8 @@
         width: 60px;
         height: 60px;
         margin-right: 15px;
-        margin-left: 130px;
+        margin-left: 0; //none
+        // margin-left: 130px;
         // margin-top: 40px;
     }
 }
@@ -33,6 +36,7 @@
 .logo__text {
     @include for-large-up {
         height: 50px;
+        width: 270px; //none
         margin-top: 30px; // none
     }
 }
@@ -62,10 +66,10 @@
     display: none;
     @include for-large-up {
         display: block;
-        margin-left: auto;
+        margin-left: 335px; //auto
         // margin-top: 46px;
         margin-right: 75px;
-        width: 273px;
+        width: 305px;  //273px
         line-height: 80px; //none
 
         &__arrow {
@@ -99,7 +103,7 @@
         font-size: 18px;
         font-weight: 700;
         margin-top: 15px; //40px
-        margin-right: 130px;
+        // margin-right: 130px;
     }
 }
 
