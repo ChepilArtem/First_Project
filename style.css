@@ -11,6 +11,7 @@
 
 .header {
   display: flex;
+  height: 70px;
 }
 
 .logo__image {
