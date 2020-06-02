@@ -14,11 +14,11 @@
 
 .header {
     display: flex;
-    height: 75px;  //70
 
     @include for-large-up {
         width: 1140px;
         margin-left: 130px;
+        height: 65px;
     }
 }
 
