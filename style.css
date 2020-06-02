@@ -6,7 +6,6 @@
 @media screen and (min-width: 1400px) {
   .top__section {
     background-color: #F3C6BD;
-    min-height: 185px;
   }
 }
 
@@ -27,14 +26,13 @@
     height: 60px;
     margin-right: 15px;
     margin-left: 130px;
-    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 1400px) {
   .logo__text {
-    line-height: 25px;
-    margin-top: 35px;
+    height: 50px;
+    margin-top: 30px;
   }
 }
 
@@ -46,7 +44,7 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__name {
-    line-height: 40px;
+    line-height: 0px;
   }
 }
 
@@ -58,6 +56,7 @@
     display: inline-block;
     color: #2B292D;
     opacity: 0.6;
+    margin-top: 15px;
   }
 }
 
@@ -68,9 +67,9 @@
   .navigation {
     display: block;
     margin-left: auto;
-    margin-top: 46px;
     margin-right: 75px;
     width: 273px;
+    line-height: 80px;
   }
   .navigation__arrow {
     background-image: url("./images/header/arrow.png");
@@ -104,7 +103,7 @@
     border-radius: 2px;
     font-size: 18px;
     font-weight: 700;
-    margin-top: 40px;
+    margin-top: 15px;
     margin-right: 130px;
   }
 }
