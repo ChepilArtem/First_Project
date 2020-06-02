@@ -1,11 +1,13 @@
 .top__section {
   background: #fff;
-  min-width: 320px;
-  min-height: 64px;
+  width: 320px;
+  height: 64px;
+  margin: 0 auto;
 }
 @media screen and (min-width: 1400px) {
   .top__section {
     background-color: #F3C6BD;
+    width: 100%;
   }
 }
 
