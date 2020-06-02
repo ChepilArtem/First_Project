@@ -74,10 +74,9 @@
     @include for-large-up {
         display: block;
         font-size: 18px;
-        margin-left: 335px;
-        // margin-right: 75px;
-        // width: 273px;
-        line-height: 70px; //none
+        margin-left: 300px;
+        width: 305px;
+        line-height: 70px;
 
         &__arrow {
             background-image: url('./images/header/arrow.png');
