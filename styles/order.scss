@@ -42,9 +42,9 @@
         color: #2B292D;
         margin-top: 40px;
 
-        // @include for-large-up {
-        //     display: none;
-        // }
+        @include for-large-up {
+            font-size: 42px;
+        }
     }
 
     // &__subtitle-desktop {
@@ -68,6 +68,8 @@
 
         @include for-large-up {
             margin-top: 12px;
+            font-size: 26px;
+            width: 580px;
         }
     }
 
@@ -87,6 +89,11 @@
         font-size: 14px;
         line-height: 22px;
         color: rgba(43, 41, 45, 0.6);
+
+        @include for-large-up {
+            font-size: 16px;
+            width: 600px;
+        }
     }
 }
 
@@ -95,6 +102,7 @@
     @include for-large-up {
         display: flex;
         margin-top: 25px;
+        width: 615px;
     }
 }
 
@@ -109,7 +117,7 @@
     margin-bottom: 12px;
 
     @include for-large-up {
-        width: 390px;
+        width: 450px;
         margin-right: 10px;
         margin-top: 0;
         margin-bottom: 0;
@@ -127,7 +135,7 @@
     font-weight: 700;
 
     @include for-large-up {
-        width: 160px;
+        width: 155px;
     }
 }
 
