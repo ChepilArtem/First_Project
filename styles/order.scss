@@ -5,6 +5,8 @@
 
     @include for-large-up {
         display: flex;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
 
@@ -16,8 +18,9 @@
 
     @include for-large-up {
         width: 280px;
-        height: 310px;
-        margin-left: 230px;
+        height: 320px;
+        margin-left: 270px;
+        margin-right: 100px;
     }
 }
 
@@ -28,7 +31,7 @@
 
     @include for-large-up {
         width: 560px;
-        margin-left: 110px;
+        margin-left: 0;
     }
 /////////////////////////////////////////////
     &__subtitle {
