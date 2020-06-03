@@ -144,21 +144,21 @@
 
 
 // ДЕФОЛТНЫЙ ЦВЕТ /////////////////////////////////////////
-.screen__inside:nth-child(3n-1) {
-    background-color: #3141C5;
+// .screen__inside:nth-child(3n-1) {
+//     background-color: #3141C5;
 
-    @include for-large-up {
-        background-color: #fff;
-    }
-}
+//     @include for-large-up {
+//         background-color: #fff;
+//     }
+// }
 
-.screen__inside:nth-child(3n-1) > .screen__name:nth-child(3n-1) {
-    color: #fff;
+// .screen__inside:nth-child(3n-1) > .screen__name:nth-child(3n-1) {
+//     color: #fff;
 
-    @include for-large-up {
-        color: #000;
-    }
-}
+//     @include for-large-up {
+//         color: #000;
+//     }
+// }
 
 
 ///////////////////////////////////////////////////////////
