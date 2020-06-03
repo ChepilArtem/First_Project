@@ -116,6 +116,8 @@
 
     &__inside {
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
         margin-bottom: 15px;
         width: 290px;
         height: 300px;
