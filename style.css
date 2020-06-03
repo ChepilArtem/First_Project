@@ -699,12 +699,17 @@
   }
 }
 .title-audience__head {
-  padding-top: 100px;
+  padding-top: 50px;
   font-weight: bold;
   font-size: 22px;
   line-height: 34px;
   text-align: center;
   color: #2B292D;
+}
+@media screen and (min-width: 1400px) {
+  .title-audience__head {
+    padding-top: 110px;
+  }
 }
 .title-audience__subtitle {
   margin-top: 17px;
