@@ -863,7 +863,7 @@
   .logo-img {
     width: 280px;
     height: 320px;
-    margin-left: 270px;
+    margin-left: 265px;
     margin-right: 100px;
   }
 }
@@ -876,7 +876,7 @@
 @media screen and (min-width: 1400px) {
   .title-order {
     width: 560px;
-    margin-left: 0;
+    margin-left: 5px;
   }
 }
 .title-order__subtitle {
