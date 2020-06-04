@@ -746,8 +746,7 @@
 }
 @media screen and (min-width: 1400px) {
   .title-audience__actions {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-bottom: 110px;
   }
 }
@@ -799,7 +798,7 @@
 @media screen and (min-width: 1400px) {
   .screen {
     width: 1140px;
-    margin: 0px 30px 30px 130px;
+    margin: 0 auto;
     padding-bottom: 130px;
     display: flex;
     justify-content: space-between;

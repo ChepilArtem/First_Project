@@ -58,8 +58,7 @@
 
     &__actions {
         @include for-large-up {
-            display: flex;
-            justify-content: center;
+            text-align: center;
             margin-bottom: 110px;
         }
     }
@@ -112,7 +111,7 @@
 
     @include for-large-up {
         width: 1140px;
-        margin: 0px 30px 30px 130px;
+        margin: 0 auto;
         padding-bottom: 130px;
         display: flex;
         justify-content: space-between;
